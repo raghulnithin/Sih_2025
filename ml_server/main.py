@@ -16,10 +16,10 @@ from firebase_admin import credentials, db
 # CONFIG
 # ========================
 
-MODEL_FILENAME = "tampering_model.pkl"   # your trained ML model
+MODEL_FILENAME = "tampering_model.pkl"   # trained ML model
 SERVICE_KEY = "serviceAccountKey.json"   # firebase service account
 DATABASE_URL = "https://namma-project-b6b64-default-rtdb.asia-southeast1.firebasedatabase.app/"
-API_KEY = "AIzaSyDqbj-3g88QOItV_wFaDMKAvDWxRM8F4Jo" # simple API key protection
+API_KEY = "xxxxxxxxxxxx" #  API key protection
 
 # ========================
 # LOAD MODEL
